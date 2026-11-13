@@ -1,0 +1,14 @@
+{
+  "name": "GeoMonitor · Clima y Sismos",
+  "short_name": "GeoMonitor",
+  "description": "Monitor global 24/7 de clima, sismos y alertas",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#070b12",
+  "theme_color": "#070b12",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
