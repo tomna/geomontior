@@ -8,7 +8,8 @@ const path = require('path');
 const app = express();
 app.use(cors());
 app.use(express.json({ limit: '2mb' }));
-app.use(express.static('public'));
+app.use(express.static(__dirname));
+app.get('/', (req, res) => res.sendFile(__dirname + '/index.html'));
 
 const DATA_DIR = path.join(__dirname, 'data');
 const SUBS_FILE = path.join(DATA_DIR, 'subs.json');
